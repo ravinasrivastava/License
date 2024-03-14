@@ -10,7 +10,6 @@ function App() {
     <Router>
         <Routes>
           <Route path="/LicenseAgreement" element={<LicenseAgreement />} />
-          {/* <Route path="*" element={<LicenseAgreement />} /> */}
           <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
           <Route path="/Termsandconditions" element={<Termsandconditions />} />
 
